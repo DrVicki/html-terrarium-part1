@@ -4,9 +4,6 @@
 ![Introduction to HTML](../../sketchnotes/webdev101-html.png)
 > Sketchnote by [Tomomi Imura](https://twitter.com/girlie_mac)
 
-## Pre-Lecture Quiz
-
-[Pre-lecture quiz](https://happy-mud-02d95f10f.azurestaticapps.net/quiz/15)
 
 ### Introduction
 
