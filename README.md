@@ -27,7 +27,7 @@ On your computer, create a folder called ```terrarium``` and inside it, a file c
 
   - You can do this in Visual Studio Code after you create your terrarium folder by opening a new VS Code window, clicking 'open folder', and navigating to your new folder. Click the small 'file' button in the Explorer pane and create the new file:
 
-![explorer in VS Code](images/vs-code-index.png)
+![image](https://user-images.githubusercontent.com/47826697/169903408-796d0544-51b3-4e04-8bc9-da857980a7a1.png)
 
 Or
 
