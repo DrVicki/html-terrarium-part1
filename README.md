@@ -7,9 +7,10 @@
 
 ### Introduction
 
-HTML, or HyperText Markup Language, is the 'skeleton' of the web. If CSS 'dresses up' your HTML and JavaScript brings it to life, HTML is the body of your web application. HTML's syntax even reflects that idea, as it includes ```head```, ```body```, and ```footer``` tags.
+HTML, or HyperText Markup Language, is the 'skeleton' of the web. **CSS** 'dresses up' your HTML, **JavaScript** brings it to life, and **HTML** is the body of your web application. 	- 
+	- HTML's syntax even reflects that idea, as it includes ```head```, ```body```, and ```footer``` tags.
 
-In this lesson, we're going to use HTML to layout the 'skeleton' of our virtual terrarium's interface. It will have a title and three columns: 
+In this lesson, we're going to use **HTML** to layout the 'skeleton' of our virtual terrarium's interface. It will have a title and three columns: 
 
   1. a right and 
   2. a left column where the draggable plants live, and 
@@ -20,9 +21,14 @@ By the end of this lesson, you will be able to see the plants in the columns, bu
 
 ### Task
 
-On your computer, create a folder called ```terrarium``` and inside it, a file called ```index.html```. 
+On your computer, create a folder called:
+	- ```terrarium``` and inside it, a file called ```index.html```. 
 
-  - You can do this in Visual Studio Code after you create your terrarium folder by opening a new VS Code window, clicking 'open folder', and navigating to your new folder. Click the small 'file' button in the Explorer pane and create the new file:
+You can do this in **Visual Studio Code** after you create your terrarium folder by;
+  -  opening a new VS Code window, 
+  -  clicking 'open folder', and 
+  -  navigating to your new folder. 
+  -  Click the small 'file' button in the Explorer pane and create the new file:
 
 ![image](https://user-images.githubusercontent.com/47826697/169903408-796d0544-51b3-4e04-8bc9-da857980a7a1.png)
 
@@ -34,15 +40,15 @@ Use these commands on your git bash:
 * `touch index.html`
 * `code index.html` or `nano index.html`
 
-> `index.html` files indicate to a browser that it is the default file in a folder; URLs such as `https://anysite.com/test` might be built using a folder structure including a folder called `test` with `index.html` inside it; `index.html` doesn't have to show in a URL.
+> `index.html` files indicate to a browser it is the default file in a folder; URLs such as `https://anysite.com/test` might be built using a folder structure including a folder called `test` with `index.html` inside it; `index.html` doesn't have to show in a URL.
 
 ---
 
 ## The DocType and html tags
 
-The first line of an HTML file is its doctype. It's a little surprising that you need to have this line at the very top of the file, but it tells older browsers the browser needs to render the page in a standard mode, following the current html specification.
+The first line of an **HTML** file is its `doctype`. It's a little surprising that you need to have this line at the very top of the file, but it tells older browsers the browser needs to render the page in a standard mode, following the current html specification.
 
-> Tip: in VS Code, you can hover over a tag and get information about its use from the MDN Reference guides.
+> Tip: in **VS Code**, you can hover over a tag and get information about its use from the MDN Reference guides.
 
 The second line should be the `<html>` tag's opening tag, followed right now by its closing tag `</html>`. These tags are the root elements of your interface.
 
@@ -88,9 +94,9 @@ Add a `head` block to your document in between the opening and closing `<html>` 
 
 ### HTML Tags
 
-In HTML, you add tags to your .html file to create elements of a web page. Each tag usually has an opening and closing tag, like this: `<p>hello</p>` to indicate a paragraph. 
+In HTML, you add **tags** to your `.html` file to create elements of a web page. Each **tag** usually has an opening and closing tag, like this: `<p>hello</p>` to indicate a paragraph. 
 
-Create your interface's body by adding a set of `<body>` tags inside the `<html>` tag pair; your markup now looks like this:
+Create your interface's **body** by adding a set of `<body>` tags inside the `<html>` tag pair; your markup now looks like this:
 
 ### Task
 
@@ -112,9 +118,9 @@ Now, you can start building out your page. Normally, you use `<div>` tags to cre
 
 ### Images
 
-One html tag that doesn't need a closing tag is the `<img>` tag, because it has a `src` element which contains all the information the page needs to render the item.
+One html tag which doesn't need a closing tag is the `<img>` tag, because it has a `src` element which contains all the information the page needs to render the item.
 
-Create a folder in your app called `terrarium-images` and in that, add all the images in the [ folder]([../solution/images](https://github.com/DrVicki/intro-html/tree/main/terrarium-images)); (there are 14 images of plants).
+Create a folder in your called `terrarium-images` and in that, add all the images in the [ folder]([../solution/images](https://github.com/DrVicki/intro-html/tree/main/terrarium-images)); (there are 14 images of plants).
 
 ### Task
 
@@ -173,9 +179,9 @@ Add those plant images into two columns between the `<body></body>` tags:
 
 > Note: Spans vs. Divs. Divs are considered 'block' elements, and Spans are 'inline'. What would happen if you transformed these divs to spans?
 
-With this markup, the plants now show up on the screen. It looks pretty bad, because they aren't yet styled using CSS, and we'll do that in the next lesson.
+With this markup, the plants now show up on the screen. It looks pretty bad, because they aren't yet styled using **CSS**, and we'll do that in the next lesson.
 
-Each image has `alt` text which will appear even if you can't see or render an image. This is an important attribute to include for accessibility. Learn more about accessibility in future lessons; for now, remember the `alt` attribute provides alternative information for an image if a user for some reason cannot view it (because of slow connection, an error in the `src` attribute, or if the user uses a screen reader).
+Each image has `alt` text which will appear even if you can't see or render an image. This is an important attribute to include for accessibility. Remember the `alt` attribute provides alternative information for an image if a user for some reason cannot view it (because of slow connection, an error in the `src` attribute, or if the user uses a screen reader).
 
 ✅ Did you notice each image has the same `alt` tag? Is this good practice? Why or why not? Can you improve this code?
 
@@ -222,19 +228,6 @@ Add this markup above the last `</div>` tag:
 ✅ Even though you added this markup to the screen, you see absolutely nothing render. Why?
 
 ---
-
-## 🚀Challenge
-
-
-## Post-Lecture Quiz
-
-[Post-lecture quiz](https://happy-mud-02d95f10f.azurestaticapps.net/quiz/16)
-
-## Review & Self Study
-
-HTML is the 'tried and true' building block system that has helped build the web into what it is today. Learn a little about its history by studying some old and new tags. Can you figure out why some tags were deprecated and some added? What tags might be introduced in the future?
-
-Learn more about building sites for the web and mobile devices at [Microsoft Learn](https://docs.microsoft.com/learn/modules/build-simple-website/?WT.mc_id=academic-13441-cxa).
 
 
 ## 🚀Challenge
