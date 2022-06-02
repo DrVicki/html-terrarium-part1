@@ -1,16 +1,11 @@
 # Terrarium Project Part 2: Introduction to CSS
 
-![Introduction to CSS](../../sketchnotes/webdev101-css.png)
-> Sketchnote by [Tomomi Imura](https://twitter.com/girlie_mac)
-
-
 ### Introduction
 
-CSS, or Cascading Style Sheets, solve an important problem of web development: how to make your web site look nice. Styling your apps makes them more usable and nicer-looking; you can also use CSS to create Responsive Web Design (RWD) - allowing your apps to look good no matter what screen size they are displayed on. CSS is not only about making your app look nice; its spec includes animations and transforms that can enable sophisticated interactions for your apps. The CSS Working Group helps maintain current CSS specifications; you can follow their work at [World Wide Web Consortium's site](https://www.w3.org/Style/CSS/members).
+CSS, or Cascading Style Sheets, solve an important problem of web development: how to make your web site look nice. Styling your apps makes them more usable and nicer-looking; you can also use CSS to create Responsive Web Design (RWD) - allowing your apps to look good no matter what screen size they are displayed on. 
 
-> Note, CSS is a language that evolves, like everything on the web, and not all browsers support newer parts of the specification. Always check your implementations by consulting [CanIUse.com](https://caniuse.com).
 
-In this lesson, we're going to add styles to our online terrarium and learn more about several CSS concepts: the cascade, inheritance, and the use of selectors, positioning, and using CSS to build layouts. In the process we will layout the terrarium and create the actual terrarium itself.
+In this lesson, we're going to **add styles to our online terrarium** and learn more about several CSS concepts: the cascade, inheritance, and the use of selectors, positioning, and using CSS to build layouts. In the process we will layout the terrarium and create the actual terrarium itself.
 
 ### Prerequisite
 
@@ -68,7 +63,6 @@ Open your browser's console to the 'Elements' tab and observe the H1's font. It 
 
 ![inherited font](images/1.png)
 
-✅ Can you make a nested style inherit a different property?
 
 ---
 
@@ -164,7 +158,6 @@ Then, the plant itself is given a max-width of 150%. This allows it to scale dow
 
 Also notable is the use of z-index, which controls the relative altitude of an element (so that the plants sit on top of the container and appear to sit inside the terrarium).
 
-✅ Why do you need both a plant holder and a plant CSS selector?
 
 ## CSS Positioning
 
@@ -178,7 +171,6 @@ In our sample, the `plant-holder` is a relative-positioned element that is posit
 
 > The `plant` itself also has absolute positioning, necessary to making it draggable, as you will discover in the next lesson.
 
-✅ Experiment with switching the types of positioning of the side containers and the plant-holder. What happens?
 
 ## CSS Layouts
 
@@ -236,8 +228,6 @@ First, style the `.terrarium` div children as a rounded rectangle using CSS:
 Note the use of percentages here. If you scale your browser down, you can see how the jar scales as well. Also notice the widths and height percentages for the jar elements and how each element is absolutely positioned in the center, pinned to the bottom of the viewport.
 
 We are also using `rem` for the border-radius, a font-relative length. Read more about this type of relative measurement in the [CSS spec](https://www.w3.org/TR/css-values-3/#font-relative-lengths).
-
-✅ Try changing the jar colors and opacity vs. those of the dirt. What happens? Why?
 
 ---
 
